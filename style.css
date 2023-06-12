@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 95vh;
+    background-color:#aaa69d;
+    display: flex;
+    justify-content: center;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    position: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#MyContainer{
+    background-color: #fff;
+    display: flex;
+   margin: 23px 16px;
+    width: 85%;
+    height: 92vh;
+    border-radius: 1px 1px 30px;
+   
+}
+.My-radio{
+   margin: 0px 10px;
+   font-size: 16px;
+}
+.UntitieUl{
+   width: 100%;
+       margin: 0px 45px;
+    
+    
+}
+.UntitieUl h4{
+    font-size: 2rem;
+    padding: 17px;
+}
+.UntitieUl h2{
+    font-size: 36px;
+    margin: 3px 12px;
+
+}
+.UntitieUl h6{
+    font-size: 16px;
+    margin: 15px;
+    margin-bottom: 21px
+}
+.Input-box{
+    margin: 10px;
+}
+.Input-box input{
+    width: 79%;
+    box-sizing: border-box;
+    padding: 4px 6px;
+    margin: 7px -1px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #dfe6e9;
+    
+}
+
+.Account{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    padding: 9px;
+    margin: 2px 8px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+.Media_btm{
+    display: flex;
+    flex-direction:column;
+
+    
+   
+   
+}
+.Btm-Media > div{
+    background-color: #dfe6e9;
+    
+    padding: 2px;
+    margin: 7px 6px;
+
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+   
+
+}
+.ImgTag{
+    width: 106%;
+    height: 87%;
+    margin-top: -29px;
+    border-radius: 29px 1px 30px
+}
+
+
+.MyMain-Img{
+    float:right;
+    margin: 10px 12px;
+    padding: 30px 40px;
+    height: 700px;
+    position: relative;
+    border-radius: 1px 1px 30px;
+}
+.Overflow{
+    position: absolute;
+    top: 9%;
+    right: 85%;
+    font-size: 3rem;
+    color: #fff;
+}
+.Quote{
+    position: absolute;
+    left: 9%;
+    top: 45%;
+    color: #fff;
+}
+.Untited{
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    color: #fff;
+    line-height: 27px;
+    font-weight: 100;
+
+}
+.MyName{
+    position: absolute;
+    left: 68px;
+    top: 67%;
+    color: #fff;
+    font-size: 20px;
+
+}
+.arrow-circle{
+    position: absolute;
+    position: absolute;
+    left: 84%;
+    top: 67%;
+    color: #fff;
+    font-size: 46px;
+    
+}
+
